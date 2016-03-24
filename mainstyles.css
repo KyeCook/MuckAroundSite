@@ -1,0 +1,53 @@
+/* CSS Styles sheet for muckaround testing website */
+body {
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif ;
+}
+#nav {
+    background-color: #000000;
+
+}
+    #nav ul {
+        list-style-type: none;
+
+    }
+    #nav a {
+        text-decoration: none;
+        display:block;
+    }
+
+a {
+    color:#fff000;
+}
+a:hover {
+    color:#000fff;
+}
+
+#wrap {
+    text-align: left;
+    color:#fff000;
+    background-color: darkslategrey;
+    float:left;
+    width:99%;
+
+}
+
+.headers {
+    font-size: large;
+    background-color: aqua;
+    color:#000000;
+}
+.content {
+    float:left;
+    width:400px;
+    height:500px;
+    background-color: darkorange;
+    margin-bottom:200px;
+    margin-left:200px;
+    border: 30px ridge #000;
+}
+    .content img {
+        float:left;
+        padding-left:80px;
+        padding-top:30px;
+
+    }
